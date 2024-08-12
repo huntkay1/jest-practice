@@ -11,3 +11,7 @@ test('The shift will wrap', () => {
 test('Handles case preservation', () => {
     expect(cipher('HeLLo', 3)).toBe('KhOOr')
 })
+
+test('Handles punctuation and spacing', () => {
+    expect(cipher('Hello, World!', 3)).toBe('Khoor, Zruog!')
+})

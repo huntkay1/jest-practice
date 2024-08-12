@@ -65,5 +65,4 @@ function addNonLetters(cipherString, nonLetters) {
     return cipherStringLetters.join('')
 }
 
-caeserCipher('Hello, World!', 3)
 module.exports = caeserCipher
